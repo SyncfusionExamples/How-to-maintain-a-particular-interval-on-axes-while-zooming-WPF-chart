@@ -1,5 +1,5 @@
 # How-to-maintain-a-particular-interval-on-axes-while-zooming-WPF-chart
-This sample demonstrate how to maintain a particular interval on axes while zooming WPF chart.
+This sample demonstrate how to maintain a particular interval on axes while zooming [WPF chart](https://www.syncfusion.com/wpf-controls/charts).
 
 To maintain a specific interval on the axis while zooming a WPF Chart, you can use the EnableAutoIntervalOnZooming property of the chart axis and set it to false.
 
@@ -38,6 +38,10 @@ Before zooming, the x-axis interval is 5, and the y-axis interval is 20.
 After zooming, the x-axis maintains the same interval, but the y-axis interval has changed.
 ![Maintain a particular interval on axes while zooming WPF Chart](https://user-images.githubusercontent.com/61832185/214261239-f249591f-457f-463f-a810-ccab391ae90d.png)
 
-## <a name="troubleshooting"></a>Troubleshooting ##
-### Path too long exception
-If you are facing path too long exception when building this example project, close Visual Studio and rename the repository to short and build the project.
+## Troubleshooting
+
+#### Path too long exception
+
+If you are facing a path too long exception when building this example project, close Visual Studio and rename the repository to a shorter name before building the project.
+
+For more details, refer to the KB on [How to maintain a particular interval on axes while zooming WPF chart](https://support.syncfusion.com/kb/article/12238/how-can-i-keep-the-axis-interval-constant-while-zooming-wpf-chart)
